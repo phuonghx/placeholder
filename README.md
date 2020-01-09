@@ -291,7 +291,7 @@ the following command will iterate over all the `geojson` files under the `WOF_D
 this process can take 30-60 minutes to run and consumes ~350MB of disk space, you will only need to run this command once, or when your local `whosonfirst-data` files are updated.
 
 ```bash
-$ WOF_DIR=/data/whosonfirst-data/data npm run extract
+$ WOF_DIR=/data/whosonfirst-data npm run extract
 ```
 
 alternatively you can download the extract file from our s3 bucket:
